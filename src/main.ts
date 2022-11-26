@@ -2,13 +2,13 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { Logger } from 'nestjs-pino';
 
-const port = 3000;
+const port = 8080;
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, { bufferLogs: true });
   app.useLogger(app.get(Logger));
   console.info(`App is running at port ${port}`);
 
-  await app.listen(process.env.PORT || 3000);
+  await app.listen(process.env.PORT || port);
 }
 bootstrap();

@@ -58,12 +58,5 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## FAQ
-
-run this command if heroku is crashing at startup
-```bash
-heroku features:enable http-session-affinity -a nest-microservice-demo
-```
-
 
 
