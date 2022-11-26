@@ -58,7 +58,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Common Issues
+## FAQ
 
 run this command if heroku is crashing at startup
 ```bash
