@@ -19,7 +19,7 @@ const prettifyLogs = LoggerModule.forRoot({
 
 
 @Module({
-  imports: !isProd ? [prettifyLogs] : [],
+  imports: [prettifyLogs],
   controllers: [AppController],
   providers: [AppService]
 })
