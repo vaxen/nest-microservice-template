@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  nest-microservice-demo:
+    image: nest-microservice-demo:latest
+    ports:
+      - '8080:8080'
