@@ -1,4 +1,5 @@
-{
+{   
+    "name": "nest-microservice-template",
     "env" : "default",
     "port": 8080
 }
